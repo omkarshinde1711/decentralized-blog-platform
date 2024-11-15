@@ -1,0 +1,17 @@
+[package]
+name = "decentralized-blog-platform"
+version = "1.0.0"
+authors = []
+
+[addresses]
+blogPlatform = '0x8be40d3c584b27da7bbe035e95ede9c30be400f2781b9d826005947538690708'
+
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
